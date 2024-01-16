@@ -16,7 +16,7 @@ public class GoogleBillboard {
   		//System.out.println("For the second question you are given f(1) - f(4) and need to find f(5).");
   		//System.out.println("All of the numbers from 1-4 have digits that add to 49 and are found in e by closeness to the decimal point.");
   		//System.out.println("So for the second question you need to find the 5th time 10 consecutive digits of e will add to 49.");
-  		int secondAnsPos = findAddNumber(49, 5, noDecimalE);
+  		//int secondAnsPos = findAddNumber(49, 5, noDecimalE);
   		/*if(secondAnsPos != -1){
     			System.out.println("The answer to the second question is: " + noDecimalE.substring(secondAnsPos, secondAnsPos + 10));
   		}
@@ -37,7 +37,7 @@ public class GoogleBillboard {
   		return true;
 	}
 	//returns place on noDecimalE
-	public int findAddNumber(int sum, int time, String num){
+	/*public int findAddNumber(int sum, int time, String num){
   		int numTimes = 1;
   		for(int i = 0; i < num.length() - 9; i++){
     			int s = 0;
@@ -52,6 +52,6 @@ public class GoogleBillboard {
     			}
   		}
   		return -1;
-	}
+	}*/
 }
 
