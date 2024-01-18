@@ -9,7 +9,7 @@ public class GoogleBillboard {
     			double num = Double.parseDouble(noDecimalE.substring(i, i + 10));
     			if(isPrime(num)){
       				//System.out.println("The answer to the first question is: " + noDecimalE.substring(i, i + 10));
-      				System.out.println(noDecimalE.substring(i, i+ 10));
+      				System.out.println(num);
       				break;
     			}
   		}
